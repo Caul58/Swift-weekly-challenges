@@ -7,9 +7,10 @@
  
  &nbsp;
  
- * [Challenge #0: Fizz Buzz](Challenge#0)
- * [Challenge #1: Anagrams](Challenge#1)
- * [Challenge #2: Fibonacc Sequence](Challenge#2)
+ * [Challenge #0: Fizz Buzz](Challenge#00)
+ * [Challenge #1: Anagrams](Challenge#01)
+ * [Challenge #2: Fibonacci Sequence](Challenge#02)
+ * [Challenge #3: Is this number prime?](Challenge#03)
  
  &nbsp;
 
