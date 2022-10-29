@@ -2,8 +2,9 @@
 <playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Introduction'/>
-        <page name='Challenge#0'/>
-        <page name='Challenge#1'/>
-        <page name='Challenge#2'/>
+        <page name='Challenge#00'/>
+        <page name='Challenge#01'/>
+        <page name='Challenge#02'/>
+        <page name='Challenge#03'/>
     </pages>
 </playground>
