@@ -11,6 +11,7 @@
  * [Challenge #1: Anagrams](Challenge#01)
  * [Challenge #2: Fibonacci Sequence](Challenge#02)
  * [Challenge #3: Is this number prime?](Challenge#03)
+ * [Challenge #4: Polygon area](Challenge#04)
  
  &nbsp;
 
