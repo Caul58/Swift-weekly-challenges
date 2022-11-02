@@ -1,5 +1,5 @@
 /*:
- # Challenges Swift code
+ # Swift weekly challenges
  
  * Created by [Carlos Pérez](https://twitter.com/caul58) – from the inspirational job of [Brais Moure](https://twitter.com/mouredev)
 

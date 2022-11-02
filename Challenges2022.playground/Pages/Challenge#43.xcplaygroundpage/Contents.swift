@@ -59,7 +59,7 @@ func halloween(option: HalloweenOption, people: [Person]) -> String {
         case .trick:
             var scaresCounter = 0
             // Name
-            scaresCounter = Int(person.name.count / 2)
+            scaresCounter = Int(person.name.replacingOccurrences(of: " ", with: "").count / 2)
             // Age
             if person.age.isMultiple(of: 2) {
                 scaresCounter += 2
@@ -76,11 +76,11 @@ func halloween(option: HalloweenOption, people: [Person]) -> String {
         case .treat:
             var sweetsCounter = 0
             // Name
-            sweetsCounter = person.name.count
+            sweetsCounter = person.name.replacingOccurrences(of: " ", with: "").count
             // Age
             sweetsCounter += (person.age > 10 ?  0 : person.age / 3)
             // Height
-            sweetsCounter += (person.height > 150 ? 0 : person.height / 50)
+            sweetsCounter += (person.height > 150 ? 0 : (person.height / 50) * 2)
             // Partial String for current person
             result += String((0..<sweetsCounter).compactMap { _ in
                 sweets.randomElement()
