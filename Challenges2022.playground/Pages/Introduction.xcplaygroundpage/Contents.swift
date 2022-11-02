@@ -14,6 +14,7 @@
  * [Challenge #4: Polygon area](Challenge#04)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
+ * [Challenge #44: Boomerang](Challenge#44)
  
  &nbsp;
 
