@@ -12,6 +12,7 @@
  * [Challenge #2: Fibonacci Sequence](Challenge#02)
  * [Challenge #3: Is this number prime?](Challenge#03)
  * [Challenge #4: Polygon area](Challenge#04)
+ * [Challenge #5: Image aspect ratio](Challenge#05)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)
