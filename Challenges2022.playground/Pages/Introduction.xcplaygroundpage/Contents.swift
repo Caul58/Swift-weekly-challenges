@@ -17,6 +17,7 @@
  * [Challenge #6: Reverse strings](Challenge#06)
  * [Challenge #7: Counting words](Challenge#07)
  * [Challenge #8: From decimal to binary](Challenge#08)
+ * [Challenge #9: Morse Code](Challenge#09)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)

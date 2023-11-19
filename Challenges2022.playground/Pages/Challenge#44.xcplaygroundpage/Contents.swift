@@ -30,8 +30,21 @@ func checkBoomerangs(from intArray: [Int]) -> Array<Array<Int>> {
     return resultArray
 }
 
+func numberOfBoomerangs(from intArray: [Int]) -> Int {
+    return checkBoomerangs(from: intArray).count
+}
+
 print(checkBoomerangs(from: [2, 1, 2, 3, 3, 4, 2, 4]))
 print(checkBoomerangs(from: [2, 1, 2, 1, 3, 4, 2, 4]))
+
+print(numberOfBoomerangs(from: [2, 1, 2, 3, 3, 4, 2, 4]))
+print(numberOfBoomerangs(from: [2, 1, 2, 1, 2]))
+print(numberOfBoomerangs(from: [1, 2, 3, 4, 5]))
+print(numberOfBoomerangs(from: [2, 2, 2, 2, 2]))
+print(numberOfBoomerangs(from: [2, -2, 2, -2, 2]))
+print(numberOfBoomerangs(from: [2, -2]))
+print(numberOfBoomerangs(from: [2]))
+print(numberOfBoomerangs(from: []))
 
 /*:
 
