@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: find . -type f -name "*.swift" -exec swift {} \;
+      run: for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`; do swift $f; done
