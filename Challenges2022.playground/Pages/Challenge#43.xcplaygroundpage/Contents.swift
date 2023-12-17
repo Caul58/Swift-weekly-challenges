@@ -50,8 +50,8 @@ enum HalloweenOption {
 func halloween(option: HalloweenOption, people: [Person]) -> String {
     
     var result = ""
-    var scares = "🎃👻💀🕷🕸🦇"
-    var sweets = "🍰🍬🍡🍭🍪🍫🧁🍩"
+    let scares = "🎃👻💀🕷🕸🦇"
+    let sweets = "🍰🍬🍡🍭🍪🍫🧁🍩"
     var peopleHeight = 0
     
     for person in people {

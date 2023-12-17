@@ -16,7 +16,7 @@
 extension String {
     func countWords() -> [String: Int] {
         var dictionary: [String: Int] = [:]
-        var regexp = /\w+/
+        let regexp = #/\w+/#
         let ranges = self.ranges(of: regexp)
         for range in ranges {
             let word = String(describing:self[range]).lowercased()

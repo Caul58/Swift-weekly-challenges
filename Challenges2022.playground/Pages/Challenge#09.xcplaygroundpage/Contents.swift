@@ -49,7 +49,7 @@ func decoder(input: String) -> String {
     
         for word in arrayWords {
             let arrayChars = String(word).split(separator: " ")
-            arrayChars.map { char in
+            let _ = arrayChars.map { char in
                 for (key, value) in naturalToMorse {
                     let stringLetter = "" + char
                     if value == stringLetter {

@@ -12,7 +12,7 @@
  * By ratio we mean, for instance, "16:9" from an 1920*1080px image.
 */
 
-import UIKit
+import AppKit
 
 func primeFactors(of number: Int) -> Array<Int> {
     var num = number
@@ -37,7 +37,8 @@ func aspectRatio(ofImage url: String) async -> String {
     
     do {
         let (data, _ ) = try await URLSession.shared.data(from: url)
-        guard let image = UIImage(data: data) else {
+        // For UIKit replace NSImage by UIImage
+        guard let image = NSImage(data: data) else {
             print("Non valid image")
             return ""
         }

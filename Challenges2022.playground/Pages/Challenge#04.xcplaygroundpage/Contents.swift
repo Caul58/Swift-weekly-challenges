@@ -49,6 +49,7 @@ struct Triangle: Polygon {
     }
 }
 
+@discardableResult
 func area(of polygon: Polygon) -> Double {
     polygon.printArea()
     return polygon.area()
