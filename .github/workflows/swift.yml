@@ -20,5 +20,6 @@ jobs:
       run: |
         for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`
         do
+          echo $f
           swift $f
         done
