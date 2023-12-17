@@ -15,7 +15,7 @@ jobs:
     runs-on: macos-13
 
     steps:
-    - uses: swift-actions/setup-swift@v1
+    - uses: actions/checkout@v3
     - name: Build
       run: |
         for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`
