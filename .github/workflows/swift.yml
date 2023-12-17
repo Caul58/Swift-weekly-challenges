@@ -18,7 +18,5 @@ jobs:
     - uses: swift-actions/setup-swift@v1
       with:
         swift-version: "5.9"
-    - name: Get swift version
-      run: swift --version
     - name: Build
       run: for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`; do swift $f; done
