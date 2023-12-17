@@ -19,4 +19,8 @@ jobs:
       with:
         swift-version: "5.9"
     - name: Build
-      run: for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`; do swift $f; done
+      run: |
+        for f in `find . -type f -name "*.swift"  | awk -F/ '{print $NF, $0}' | sort | awk '{print $2}'`
+        do
+          swift $f
+        done
