@@ -1,7 +1,7 @@
 /*:
  # Swift weekly challenges
  
- * Created by [Carlos Pérez](https://twitter.com/caul58) – from the inspirational job of [Brais Moure](https://twitter.com/mouredev)
+ * Created by [Carlos Pérez](https://twitter.com/caul58) – from the inspirational [Brais Moure's](https://twitter.com/mouredev) work.
 
  This playground is designed to showcase weekly challenges published by [Brais Moure](https://twitter.com/mouredev) and solved them by my self [Carlos Pérez](https://twitter.com/caul58). If you hit problems or have questions, you're welcome to tweet me [@caul58](https://twitter.com/caul58).
  
@@ -21,6 +21,7 @@
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)
+ * [Challenge #45: Water Container](Challenge#45)
  
  &nbsp;
 
