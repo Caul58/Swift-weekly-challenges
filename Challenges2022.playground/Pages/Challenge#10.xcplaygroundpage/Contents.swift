@@ -19,13 +19,13 @@ func isBalanced(expression: String) -> Bool {
     var symbolStack: [Character] = []
     let openSym: [Character] = ["{", "[", "("]
     let closeSym: [Character] = ["}", "]", ")"]
-    var exit = false
+    
     for symbol in expression {
         if openSym.contains(symbol) {
             symbolStack.append(symbol)
         } else if closeSym.contains(symbol) {
             if !symbolStack.isEmpty, symbolStack.last == openSym[closeSym.firstIndex(of: symbol)!] {
-                symbolStack.popLast()
+                let _ = symbolStack.popLast()
             } else {
                 return false
             }
