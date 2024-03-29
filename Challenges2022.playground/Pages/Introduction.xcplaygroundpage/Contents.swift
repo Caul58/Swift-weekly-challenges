@@ -19,6 +19,8 @@
  * [Challenge #8: From decimal to binary](Challenge#08)
  * [Challenge #9: Morse Code](Challenge#09)
  * [Challenge #10: Balanced Expressions](Challenge#10)
+ * [Challenge #11: Disjoint Sets](Challenge#11)
+ * [Challenge #12: Is it a palindrome?](Challenge#12)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)

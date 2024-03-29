@@ -4,7 +4,7 @@
 &nbsp;
 
 [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
-# Challenge 11: Removing characters
+# Challenge 11: Disjoint Sets
 
  Create a function that receives two strings (str1, str2) and returns two processed strings (out1, out2) with the following instructions about the process.
     * out1 will contain all characters present in str1 but *not* in str2.
