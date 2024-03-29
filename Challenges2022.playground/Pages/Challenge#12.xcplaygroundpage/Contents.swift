@@ -36,11 +36,12 @@ func isPalindrome(_ str: String) -> Bool {
 
 func isPalindromeRegExp(_ str: String) -> Bool {
     // process given string
+    let punctuationSearch = try! Regex("[^a-z0-9]")
+    
     var processedString = str
         .lowercased()
         .folding(options: .diacriticInsensitive, locale: .current) // Removes acentuation
-        .replacing(/[^a-z0-9]/, with: "")
-    
+        .replacing(punctuationSearch) { _ in "" } // Removes punctuation
     return String(processedString) == String(processedString.reversed())
 }
 
