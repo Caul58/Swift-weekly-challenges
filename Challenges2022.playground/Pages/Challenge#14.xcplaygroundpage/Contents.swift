@@ -19,7 +19,7 @@ func isArmstrong(_ num: Int) -> Bool {
     
     let numberString = String(num)
     let power = Double(numberString.count)
-    var sum = numberString.reduce(0) { res, char in
+    let sum = numberString.reduce(0) { res, char in
         res + Int(pow(Double(char.description) ?? 0, power))
     }
     return sum == num
