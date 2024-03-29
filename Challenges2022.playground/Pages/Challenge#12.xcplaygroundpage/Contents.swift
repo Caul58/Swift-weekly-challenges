@@ -19,7 +19,7 @@ import Foundation
 
 func isPalindrome(_ str: String) -> Bool {
     // process given string
-    var processedString = str
+    let processedString = str
         .lowercased()
         .replacingOccurrences(of: " ", with: "")
         .replacingOccurrences(of: ".", with: "")
@@ -38,7 +38,7 @@ func isPalindromeRegExp(_ str: String) -> Bool {
     // process given string
     let punctuationSearch = try! Regex("[^a-z0-9]")
     
-    var processedString = str
+    let processedString = str
         .lowercased()
         .folding(options: .diacriticInsensitive, locale: .current) // Removes acentuation
         .replacing(punctuationSearch) { _ in "" } // Removes punctuation
