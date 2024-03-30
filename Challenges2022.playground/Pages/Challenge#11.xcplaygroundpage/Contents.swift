@@ -42,4 +42,9 @@ print("""
 
 
 
-//: [Next](@next)
+/*:
+
+&nbsp;
+
+[< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+*/

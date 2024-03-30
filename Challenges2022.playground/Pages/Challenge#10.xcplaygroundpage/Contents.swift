@@ -45,5 +45,10 @@ print("Expression 8 -> \(isBalanced(expression: "{ a * ( b } + 5 )"))")
 
 
 
-//: [Next](@next)
+/*:
+
+&nbsp;
+
+[< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+*/
 

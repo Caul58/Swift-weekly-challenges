@@ -80,4 +80,9 @@ print("""
     Test 6, \(unwrapDaysBetween(date1: "29/05/2022", date2: "18/05/2022")) days between 29/05/2022 and 18/05/2022
     
     """)
-//: [Next](@next)
+/*:
+
+&nbsp;
+
+[< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+*/

@@ -66,4 +66,9 @@ print("""
     Result RegExp: \(isPalindromeRegExp("¿Qué os ha parecido el reto?"))
 
 """)
-//: [Next](@next)
+/*:
+
+&nbsp;
+
+[< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+*/
