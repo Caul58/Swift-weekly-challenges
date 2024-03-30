@@ -23,6 +23,7 @@
  * [Challenge #12: Is it a palindrome?](Challenge#12)
  * [Challenge #13: Recursive factorial](Challenge#13)
  * [Challenge #14: Armstrong number](Challenge#14)
+ * [Challenge #15: Days between dates](Challenge#15)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)
