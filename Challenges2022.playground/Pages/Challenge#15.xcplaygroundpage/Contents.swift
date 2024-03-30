@@ -21,7 +21,7 @@ enum CustomError: Error {
 
 func daysBetween(date1: String, date2: String) throws -> Int {
     
-    var formatter = DateFormatter()
+    let formatter = DateFormatter()
     formatter.dateFormat = "dd/MM/yyyy"
     
     let strongFormat = try! Regex("^(([0-9]){2}[/]){2}([0-9]){4}$")
