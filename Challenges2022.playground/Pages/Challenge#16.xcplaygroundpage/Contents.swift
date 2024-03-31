@@ -15,15 +15,17 @@ import Foundation
 
 func capitalise(phrase: String) -> String {
     let words = phrase.split(separator: " ")
-    let processedWords: [String] =  words.map { word in
-        guard let modified = word.first?.uppercased() else {
-            return ""
-        }
+    var processedPhrase: String = phrase
+    words.forEach { word in
         var reducedWord = word
-        let _ = reducedWord.popFirst()
-        return modified + reducedWord
+        guard let firstLetter = reducedWord.popFirst()?.uppercased() else {
+            return
+        }
+        let processedWord: String = firstLetter + reducedWord
+        processedPhrase = processedPhrase.replacingOccurrences(of: word, with: processedWord)
     }
-    return processedWords.joined(separator: " ")
+    
+    return processedPhrase
 }
 
 print("""
