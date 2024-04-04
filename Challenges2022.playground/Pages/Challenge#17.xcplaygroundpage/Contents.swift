@@ -32,7 +32,7 @@ func hasAthletePassed(with reactions: [AthleteReactions], court: String) -> Bool
     let courtArray = Array(court)
     
     var resultRace = ""
-    for var index in 0 ..< max {
+    for index in 0 ..< max {
         if index >= min {
             resultRace.append("?")
         } else {
@@ -41,8 +41,6 @@ func hasAthletePassed(with reactions: [AthleteReactions], court: String) -> Bool
                 courtArray[index] == "_" ? resultRace.append(courtArray[index]) : resultRace.append("/")
             case .jump:
                 courtArray[index] == "|" ? resultRace.append(courtArray[index]) : resultRace.append("x")
-            default:
-                resultRace.append(courtArray[index])
             }
         }
     }
