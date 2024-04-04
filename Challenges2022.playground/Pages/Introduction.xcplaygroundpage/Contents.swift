@@ -25,6 +25,7 @@
  * [Challenge #14: Armstrong number](Challenge#14)
  * [Challenge #15: Days between dates](Challenge#15)
  * [Challenge #16: Uppercase](Challenge#16)
+ * [Challenge #17: Obstacle race](Challenge#17)
  * [...]
  * [Challenge #43: Special by Halloween](Challenge#43)
  * [Challenge #44: Boomerang](Challenge#44)
